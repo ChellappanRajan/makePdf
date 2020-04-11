@@ -3,12 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+import { MakePdfComponent } from './make-pdf/make-pdf.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MakePdfComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
